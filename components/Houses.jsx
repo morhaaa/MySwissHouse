@@ -58,7 +58,7 @@ export const Houses = [
   },
   {
     img: "/Houses/Attico2.jpg",
-    location: "Locarno",
+    location: "LOCARNO",
     title: "New Loft in Locarno",
     description:
       "This Spectacular Home  is not only an oasis for your eyes, but has been fully upgraded to welcome you home. A private long driveway leads you to the front of the home with a 2 car garage",
@@ -131,7 +131,7 @@ export const Houses = [
 
   {
     img: "/Houses/Attico2.jpg",
-    location: "St Gallen",
+    location: "ST. GALLEN",
     title: "Small Loft",
     description:
       "This Spectacular Home  is not only an oasis for your eyes, but has been fully upgraded to welcome you home. A private long driveway leads you to the front of the home with a 2 car garage",
