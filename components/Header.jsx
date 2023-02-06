@@ -42,23 +42,23 @@ const Header = () => {
     }
   };
   return (
-    <header className=" flex z-50 top-0 sticky bg-gray-200 border-gray-200  border-2 rounded-b-xl w-full p-1  ">
+    <header className="flex  items-center px-2  py-2 z-50 top-0 sticky bg-gray-200 border-gray-200  border-2 rounded-b-xl w-full  ">
       <div
         onClick={() => router.push("/")}
-        className="hidden sm:inline basis-1/3 text-md md:text-2xl pt-4 md:p-2 font-bold text-gray-700 cursor-pointer"
+        className="hidden sm:inline basis-1/3 text-md md:text-2xl  md:p-2 font-bold text-gray-700 cursor-pointer"
       >
         My
         <i className="text-red-700 font-extrabold">Swiss</i>House
       </div>
       <div
         onClick={() => router.push("/")}
-        className="sm:hidden basis-1/3 text-md text-center  pt-4 font-bold text-gray-700 cursor-pointer"
+        className="sm:hidden basis-1/6 text-center  text-md  font-bold text-gray-700 cursor-pointer"
       >
         M<p className="text-red-700 font-extrabold m-0 inline-block">S</p>H
       </div>
 
-      <div className="  relative flex flex-col  w-[210px] md:w-[400px] lg:w-[600px] ">
-        <div className="mt-2 inline-flex bg-white border-2 border-gray-300 rounded-full p-1 hover:drop-shadow-2xl transform transition duration-100 ease-out">
+      <div className=" px-6  relative flex flex-col w-[350px]  md:w-[400px] lg:w-[600px] ">
+        <div className="inline-flex bg-white border-2 border-gray-300 rounded-full p-1 hover:drop-shadow-2xl transform transition duration-100 ease-out">
           <input
             value={searchInput}
             onChange={handler}
@@ -73,7 +73,7 @@ const Header = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="text-white bg-black rounded-full p-2 h-7 w-7 md:h-8 md:w-8 cursor-pointer"
+            className="text-white hidden md:inline bg-black rounded-full p-2 h-7 w-7 md:h-8 md:w-8 cursor-pointer"
           >
             <path
               fillRule="evenodd"
@@ -124,7 +124,7 @@ const Header = () => {
           </svg>
         </div>
 
-        <div className="relative">
+        <div className="relative basis-1/6 ">
           <div
             onClick={() => setOpen(!isOpen)}
             className="inline-flex rounded-full border-2 border-gray-500 cursor-pointer   md:mx-2 hover:scale-105 transition duration-200 ease-out active:scale-95"
