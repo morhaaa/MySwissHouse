@@ -7,10 +7,10 @@ const Header = () => {
 
   const router = useRouter();
   return (
-    <header className=" flex justify-between z-50 top-0 sticky bg-gray-200 border-2 w-full p-1">
+    <header className=" flex items-center px-2 py-2 justify-between z-50 top-0 sticky bg-gray-200 border-2 w-full">
       <div
         onClick={() => router.push("/")}
-        className="basis-1/3 text-md md:text-2xl pt-4 md:p-2 font-bold text-gray-700 cursor-pointer"
+        className="basis-1/3 text-md md:text-2xl  md:p-2 font-bold text-gray-700 cursor-pointer"
       >
         My
         <i className="text-red-700 font-extrabold">Swiss</i>House
